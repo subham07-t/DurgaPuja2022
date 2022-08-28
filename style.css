@@ -1,63 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Atma:wght@400;500;600&family=DynaPuff&family=Nunito+Sans:wght@300;400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@400;500;600&family=DynaPuff&family=Nunito+Sans:wght@300;400;700;800&display=swap");
 
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Atma', cursive;
-    margin: 0;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Atma", cursive;
+  margin: 0;
 }
 
-.container{
-          background-image: url('./tanuj-adhikary-B3Knp6y8q4M-unsplash.jpg');
-          background-position : center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          height: 100vh;
-          width: 100vw;
-            filter: blur(2px) ;
-            filter:contrast(50%) brightness(80%);
-            
+.container {
+  background-image: url("./imgs/tanuj-adhikary-B3Knp6y8q4M-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  filter: blur(2px);
+  filter: contrast(50%) brightness(80%);
 }
 
-
-h1{
-    font-size: 8rem;
-    font-weight: normal;
-    margin-top: 5rem;
-    flex-wrap: wrap;
-    color: antiquewhite;
+h1 {
+  font-size: 8rem;
+  font-weight: normal;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  color: antiquewhite;
 }
 
-.Count_down{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 20px;
-    flex-wrap: wrap;
-    color: antiquewhite;
+.Count_down {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  color: antiquewhite;
 }
 
-.count_el{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 20px;
-    
-
+.count_el {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
 }
 
-.count_el p{
-    font-weight: 700;
-    font-size: 4rem;
-    margin: 10px 15px;
-
-
+.count_el p {
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 10px 15px;
 }
