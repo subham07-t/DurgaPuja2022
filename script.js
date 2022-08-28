@@ -3,7 +3,7 @@ const hour_el = document.getElementById("hours");
 const min_el = document.getElementById("mins");
 const sec_el = document.getElementById("seconds");
 
-const newyear = "2 oct 2022";
+const newyear = "30 sept 2022";
 
 const newYear = () => {
   const newYearDate = new Date(newyear);
