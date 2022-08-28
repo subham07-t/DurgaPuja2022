@@ -14,15 +14,12 @@ body {
   margin: 0;
 }
 
-.container {
-  background-image: url("./imgs/tanuj-adhikary-B3Knp6y8q4M-unsplash.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+video {
+  object-fit: cover;
   height: 100vh;
   width: 100vw;
-  filter: blur(2px);
-  filter: contrast(50%) brightness(80%);
+  filter: blur(0.5px);
+  filter: contrast(60%) brightness(80%);
 }
 
 h1 {
@@ -32,7 +29,11 @@ h1 {
   flex-wrap: wrap;
   color: antiquewhite;
 }
-
+@media (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
 .Count_down {
   display: flex;
   justify-content: center;
