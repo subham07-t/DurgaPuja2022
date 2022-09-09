@@ -3,7 +3,7 @@ const hour_el = document.getElementById("hours");
 const min_el = document.getElementById("mins");
 const sec_el = document.getElementById("seconds");
 
-const newyear = "30 sept 2022";
+const newyear = "1 oct 2022";
 
 const newYear = () => {
   const newYearDate = new Date(newyear);
@@ -17,12 +17,12 @@ const newYear = () => {
 
   // console.log(days,hour,minutes,sec);
 
-  days_el.innerHTML = days;
-  hour_el.innerHTML = timee(hours);
-  min_el.innerHTML = timee(mins);
-  sec_el.innerHTML = timee(seconds);
+  days_el.innerHTML = formatTime(days);
+  hour_el.innerHTML = formatTime(hours);
+  min_el.innerHTML = formatTime(mins);
+  sec_el.innerHTML = formatTime(seconds);
 
-  function timee(time) {
+  function formatTime(time) {
     return time < 10 ? `0${time}` : time;
   }
 };
