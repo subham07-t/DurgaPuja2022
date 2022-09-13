@@ -3,13 +3,14 @@ const hour_el = document.getElementById("hours");
 const min_el = document.getElementById("mins");
 const sec_el = document.getElementById("seconds");
 
-const newyear = "1 oct 2022";
+const newyear = "10 sept 2022";
 
 const newYear = () => {
   const newYearDate = new Date(newyear);
   const currentYear = new Date();
 
   const Totalseconds = (newYearDate - currentYear) / 1000;
+
   const days = Math.floor(Totalseconds / (3600 * 24));
   const hours = Math.floor((Totalseconds % (3600 * 24)) / 3600);
   const mins = Math.floor((Totalseconds % 3600) / 60);
